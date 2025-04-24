@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio - Arena Praia Fabri</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #fffbe6;
+      font-family: Arial, sans-serif;
+      color: #333;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 10px;
+    }
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 10px;
+    }
+    .logo-principal img {
+      max-height: 160px;
+    }
+    .logo-secundaria {
+      position: absolute;
+      right: 20px;
+      top: 0;
+    }
+    .logo-secundaria img {
+      max-height: 90px;
+    }
+    h1 {
+      font-size: 42px;
+      margin: 10px 0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+      height: 100%;
+      overflow: hidden;
+    }
+    .section {
+      flex: 1 1 45%;
+      max-width: 45%;
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .section h2 {
+      background-color: #ff6600;
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      text-align: center;
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      font-size: 18px;
+      border-bottom: 1px solid #eee;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-principal">
+      <img src="f9e6aa4d-b79c-4e9f-b7a1-28432bf0f31e.jpg" alt="6º Open Sicredi">
+    </div>    
+  </header>  
+  <div class="container">
+    <div class="section">
+      <h2>BEBIDAS NÃO ALCOÓLICAS</h2>
+      <ul>
+        <li><span>Água com gás</span><span>R$ 6,00</span></li>
+        <li><span>Água comum</span><span>R$ 6,00</span></li>
+        <li><span>Água de coco</span><span>R$ 9,00</span></li>
+        <li><span>Água Tônica</span><span>R$ 8,00</span></li>
+        <li><span>Energético</span><span>R$ 15,00</span></li>
+        <li><span>Gatorade</span><span>R$ 10,00</span></li>
+        <li><span>H2O</span><span>R$ 9,00</span></li>
+        <li><span>Refrigerante lata 350ml</span><span>R$ 7,00</span></li>
+        <li><span>Suco Tial 330 ml</span><span>R$ 7,00</span></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>CERVEJAS</h2>
+      <ul>
+        <li><span>Chopp 1 copo 500ml</span><span>R$ 12,00</span></li>
+        <li><span>Chopp Combo 5 copos</span><span>R$ 50,00</span></li>
+        <li><span>Corona longneck</span><span>R$ 12,00</span></li>
+        <li><span>Heineken longneck</span><span>R$ 12,00</span></li>
+        <li><span>Heineken zero álcool</span><span>R$ 12,00</span></li>
+        <li><span>Michelob</span><span>R$ 12,00</span></li>
+        <li><span>Smirnoff ice 275ml</span><span>R$ 12,00</span></li>
+        <li><span>Vinho Mateus Rose</span><span>R$ 69,00</span></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>COMIDAS</h2>
+      <ul>
+        <li><span>Bacon Burguer</span><span>R$ 25,00</span></li>
+        <li><span>Bananinha</span><span>R$ 9,00</span></li>
+        <li><span>Churrasco</span><span>R$ 30,00</span></li>
+        <li><span>Espetinhos</span><span>R$ 12,00</span></li>
+        <li><span>Macarrão</span><span>R$ 25,00</span></li>
+        <li><span>Porção de Fritas</span><span>R$ 30,00</span></li>
+        <li><span>Porção de Pastel</span><span>R$ 25,00</span></li>
+        <li><span>Quibe recheado</span><span>R$ 30,00</span></li>
+        <li><span>Tropeiro</span><span>R$ 25,00</span></li>
+        <li><span>X-Bacon Burguer</span><span>R$ 30,00</span></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>DRINKS</h2>
+      <ul>
+        <li><span>Aperol Spritz</span><span>R$ 40,00</span></li>
+        <li><span>Caipirinha</span><span>R$ 20,00</span></li>
+        <li><span>Caipvodka Absolut</span><span>R$ 30,00</span></li>
+        <li><span>Gin Tônica</span><span>R$ 35,00</span></li>
+        <li><span>Gin tônica com Aperol</span><span>R$ 40,00</span></li>
+        <li><span>Licor 43</span><span>R$ 40,00</span></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
